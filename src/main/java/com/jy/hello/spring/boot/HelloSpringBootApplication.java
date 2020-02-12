@@ -16,6 +16,7 @@ public class HelloSpringBootApplication {
     public String sayHi(){
         return "hello spring boot!";
     }
+
     public static void main(String[] args) {
         SpringApplication.run(HelloSpringBootApplication.class, args);
     }
